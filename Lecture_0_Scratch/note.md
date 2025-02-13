@@ -2,7 +2,7 @@
 ## Computer Science
 * 1 byte = 8 bits
 ## ASCII
-![alt text](image.png)
+![alt text](https://github.com/lzt0911/CS50/blob/main/Lecture_0_Scratch/images/image.png?raw=true)
 ## Unicode
 * Unicode是ASCII的扩展，用来表示世界上大部分的文字系统。
 * Unicode includes not only special characters, but emoji as well.
@@ -10,8 +10,8 @@
 ## Representation
 * 每个像素使用3个字节来表示颜色
 * Red, green, and blue (called RGB) is a combination of three numbers.
-  ![alt text](image-2.png)
-  ![alt text](image-3.png)
+  ![alt text](https://github.com/lzt0911/CS50/blob/main/Lecture_0_Scratch/images/image-2.png?raw=true)
+  ![alt text](https://github.com/lzt0911/CS50/blob/main/Lecture_0_Scratch/images/image-3.png?raw=true)
 ## Algorithms
 ## Pseudocode伪代码
 * Pseudocode is a human-readable version of your code.
