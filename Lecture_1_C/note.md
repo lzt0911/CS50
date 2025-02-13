@@ -1,9 +1,9 @@
 # Lecture 1 
 ## Hello World
 * We can convert source code into machine code using a very special piece of software called a compiler.
-* We will be using three commands to write, compile, and run our first program
+* We will be using three commands to write, compile, and run our first program.
   ```
-  // creates a file and allows us to type instructions for this program.
+  // creates a file and allows us to type instructions for this program
   code hello.c
 
   // compiles the file from our instructions in C and creates an executable file called hello
@@ -92,6 +92,9 @@ int main(void)
 }
 ```
 ```c
+#include <cs50.h>
+#include <stdio.h>
+
 int x = get_int("x is: ");
 switch(x)
 {
@@ -149,20 +152,6 @@ void meow(int n)
     for (int i = 0; i < n; i++)
     {
         printf("meow\n");
-    }
-}
-```
-```c
-int main(void)
-{
-    const int n = 3;
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = 0; j < n; j++)
-        {
-            printf("#");
-        }
-        printf("\n");
     }
 }
 ```
