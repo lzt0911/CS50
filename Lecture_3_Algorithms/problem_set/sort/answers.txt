@@ -1,0 +1,14 @@
+sort1 uses: bubble sort
+
+How do you know?: sort reversed5000.txt need 0.081s, which is the worst situation;
+                  sort sorted5000.txt need 0.03s, which is the best situation
+
+sort2 uses: merge sort
+
+How do you know?: sort reversed5000.txt need 0.028s, which is the worst situation;
+                  sort sorted5000.txt need 0.03s, which is the best situation
+
+sort3 uses: selection sort
+
+How do you know?: sort reversed5000.txt need 0.06s, which is the worst situation;
+                  sort sorted5000.txt need 0.06s, which is the best situation
