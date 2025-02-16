@@ -51,8 +51,8 @@ Else if 50 > doors[middle]
   * O(logn)
   * O(1)
 * 下界（最好情况）
-  * 用$\Omega$表示 
-* 若上下界相同，则用$\theta$表示
+  * 用&Omega;表示 
+* 若上下界相同，则用&theta;表示
 ## Data Structures
 ```c
 #include <cs50.h>
@@ -102,7 +102,7 @@ int main(void)
   ```
   * 时间复杂度
     * 最差情况：O(n^2)
-    * 最好情况：$\Omega$(n^2)
+    * 最好情况：&Omega;(n^2)
 * bubble sort
   ```
   Repeat n-1 times
@@ -114,7 +114,7 @@ int main(void)
   ```
   * 时间复杂度
     * 最差情况：O(n^2)
-    * 最好情况：$\Omega$(n)
+    * 最好情况：&Omega;(n)
 * merge sort
   ```
   把n个数一层层对半分，需要分logn次
@@ -126,10 +126,10 @@ int main(void)
     Sort right half of number
     Merge sorted halves
   ```
-  ![alt text](https://github.com/lzt0911/CS50/blob/main/Lecture_3_Algorithms/images/image.png?raw=true)
+  ![alt text](https://github.com/lzt0911/CS50/blob/main/Lecture_3_Algorithms/images/image.png)
   * 时间复杂度
     * 最差情况：O(nlogn)
-    * 最好情况：$\Omega$(nlogn)
+    * 最好情况：&Omega;(nlogn)
 ## Recursion递归
 * Recursion is a concept within programming where a function calls itself.
 ```c
