@@ -284,6 +284,11 @@ int main(void)
 * `fgets()` reads a full string from a file.
 * `fputs()` writes a full string to a file.
 * `fprintf()` writes a formatted string to a file.
+* `fscanf()` 从文件中读取格式化的数据
+    ```
+    返回值是成功读取的输入字段数
+    如果到达文件末尾（EOF），返回 EOF（通常为 -1）
+    ```
 * `fseek()` allows you rewind or fast-forword within a file(移动文件指针的位置).
   ```
   int fseek(FILE *stream, long offset, int whence);
