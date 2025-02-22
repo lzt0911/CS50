@@ -183,11 +183,3 @@ echo $?
 ```
 ## Cryptography密码学
 ![alt text](https://github.com/lzt0911/CS50/blob/main/Lecture_2_Arrays/images/image.png?raw=true)
-## 补充
-```
-// 四舍五入函数
-round(num);
-
-// 判断是否为空格
-isspace(c);
-```
