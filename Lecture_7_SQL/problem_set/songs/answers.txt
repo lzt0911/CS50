@@ -1,0 +1,2 @@
+right: the greater average energy, valence, and danceability
+blue: the smaller average energy, valence, and danceability
