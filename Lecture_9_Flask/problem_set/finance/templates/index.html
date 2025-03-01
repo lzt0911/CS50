@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <table>
+        <tr>
+            <th>Symbol</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+        {% for i in range(price|length) %}
+            <tr >
+                <td>{{ symbol[i] }}</td>
+                <td>{{ shares[i] }}</td>
+                <td>{{ price[i] | usd }}</td>
+                <td>{{ total[i] | usd }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <table>
+        <tr>
+            <td>Cash</td>
+            <td>{{ cash | usd }}</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td>{{ remain | usd }}</td>
+        </tr>
+    </table>
+{% endblock %}

@@ -221,6 +221,8 @@ ORDER BY XXX ASC, XXX DESC
 -- 给COUNT(*)起别名，方便后续输入
 SELECT language, COUNT(*) AS n FROM favorites GROUP BY language ORDER BY n DESC;
 
+-- 查找是否有某个名字的table
+SELECT name FROM sqlite_master WHERE type='table' AND name=?
 -- INSERT INTO table (column...) VALUES(value, ...);
 -- 插入language=SQL, problem=Fiftyville的数据，未指定的字段为NULL
 INSERT INTO favorites (language, problem) VALUES ('SQL', 'Fiftyville');
